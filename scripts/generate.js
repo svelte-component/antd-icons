@@ -28,20 +28,21 @@ async function generateIcons() {
 
   const render = template(
     `
-// GENERATE BY ./scripts/generate.ts
+// GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-import * as React from 'react'
-import <%= svgIdentifier %>Svg from '@ant-design/icons-svg/lib/asn/<%= svgIdentifier %>';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+<script>
+  import AntdIcon from "../components/AntdIcon.svelte";
 
-const <%= svgIdentifier %> = (
-  props: AntdIconProps,
-  ref: React.MutableRefObject<HTMLSpanElement>,
-) => <AntdIcon {...props} ref={ref} icon={<%= svgIdentifier %>Svg} />;
+  export let className = undefined;
+  export let spin = undefined;
+  export let rotate = undefined;
+  export let twoToneColor = undefined;
+  export let style;
+</script>
 
-<%= svgIdentifier %>.displayName = '<%= svgIdentifier %>';
-export default React.forwardRef<HTMLSpanElement, AntdIconProps>(<%= svgIdentifier %>);
+<AntdIcon {className} {spin} {rotate} {twoToneColor} {style} />
+
 `.trim()
   );
 

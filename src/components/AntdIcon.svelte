@@ -1,7 +1,4 @@
 <script>
-  import AccountBookTwoToneSvg from "@ant-design/icons-svg/lib/asn/AccountBookTwoTone";
-
-  //   <UpCircleTwoTone />
   import { setTwoToneColor } from "./twoTonePrimaryColor";
   import { normalizeTwoToneColors } from "../utils";
   import classNames from "classnames";
@@ -10,39 +7,45 @@
   setTwoToneColor("#1890ff");
 
   export let className = undefined;
-  export let icon = AccountBookTwoToneSvg;
+  export let icon = undefined;
   export let spin = false;
   export let rotate = 0;
-  //   export let tabIndex = undefined;
+  export let tabIndex = undefined;
   export let twoToneColor = undefined;
+  export let restProps = {};
+  export let restSvgProps = {};
+  export let style = undefined;
 
-  const classString = classNames(
+  $: classString = classNames(
     "anticon",
     { [`anticon-${icon.name}`]: Boolean(icon.name) },
     className
   );
-  const svgClassString = classNames({
+
+  $: svgClassString = classNames({
     "anticon-spin": !!spin || icon.name === "loading"
   });
-  // TODO: tabindex
-  //   let iconTabIndex = tabIndex;
-  //   if (iconTabIndex === undefined && onClick) {
-  //     iconTabIndex = -1;
-  //   }
-  const svgStyle = rotate
+
+  $: svgStyle = rotate
     ? `msTransform: rotate(${rotate}deg);transform: rotate(${rotate}deg);`
     : undefined;
 
-  const [primaryColor, secondaryColor] = normalizeTwoToneColors(twoToneColor);
-  //   console.log("p1: ", primaryColor);
-  //   console.log("p2: ", secondaryColor);
+  $: [primaryColor, secondaryColor] = normalizeTwoToneColors(twoToneColor);
 </script>
 
-<span role="img" aria-label={icon.name} className={classString}>
+<span
+  on:click
+  role="img"
+  {tabIndex}
+  aria-label={icon.name}
+  className={classString}
+  {style}
+  {...restProps}>
   <IconBase
     {icon}
-    className={svgClassString}
-    primaryColor="blue"
+    {primaryColor}
     {secondaryColor}
+    className={svgClassString}
+    restProps={restSvgProps}
     style={svgStyle} />
 </span>
