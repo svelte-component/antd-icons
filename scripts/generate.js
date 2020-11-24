@@ -28,28 +28,30 @@ async function generateIcons() {
 
   const render = template(
     `
+<script>
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-<script>
+  import <%= svgIdentifier %>Svg from '@ant-design/icons-svg/lib/asn/<%= svgIdentifier %>';
   import AntdIcon from "../components/AntdIcon.svelte";
-
   export let className = undefined;
   export let spin = undefined;
   export let rotate = undefined;
   export let twoToneColor = undefined;
-  export let style;
+  export let style = undefined;
+  export let restProps = undefined
+  export let restSvgProps = undefined
+  export let tabIndex = undefined;
 </script>
 
-<AntdIcon {className} {spin} {rotate} {twoToneColor} {style} />
-
+<AntdIcon {className} {spin} {rotate} {twoToneColor} {style} icon={<%= svgIdentifier %>Svg} {restProps} {restSvgProps} {tabIndex} />
 `.trim()
   );
 
   await walk(async ({ svgIdentifier }) => {
     // generate icon file
     await writeFile(
-      path.resolve(__dirname, `../src/icons/${svgIdentifier}.tsx`),
+      path.resolve(__dirname, `../src/icons/${svgIdentifier}.svelte`),
       render({ svgIdentifier })
     );
   });
@@ -59,12 +61,12 @@ async function generateIcons() {
     .sort()
     .map(
       (svgIdentifier) =>
-        `export { default as ${svgIdentifier} } from './${svgIdentifier}';`
+        `export { default as ${svgIdentifier} } from './${svgIdentifier}.svelte';`
     )
     .join("\n");
 
   await promisify(fs.appendFile)(
-    path.resolve(__dirname, "../src/icons/index.tsx"),
+    path.resolve(__dirname, "../src/icons/index.js"),
     `
 // GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
