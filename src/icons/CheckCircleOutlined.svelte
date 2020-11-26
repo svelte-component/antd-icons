@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CheckCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/CheckCircleOutlined';
+  import CheckCircleOutlinedSvg from '@ant-design/icons-svg/es/asn/CheckCircleOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

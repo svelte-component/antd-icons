@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ClockCircleTwoToneSvg from '@ant-design/icons-svg/lib/asn/ClockCircleTwoTone';
+  import ClockCircleTwoToneSvg from '@ant-design/icons-svg/es/asn/ClockCircleTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

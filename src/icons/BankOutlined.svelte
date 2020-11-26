@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BankOutlinedSvg from '@ant-design/icons-svg/lib/asn/BankOutlined';
+  import BankOutlinedSvg from '@ant-design/icons-svg/es/asn/BankOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

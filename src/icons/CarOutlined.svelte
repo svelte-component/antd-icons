@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CarOutlinedSvg from '@ant-design/icons-svg/lib/asn/CarOutlined';
+  import CarOutlinedSvg from '@ant-design/icons-svg/es/asn/CarOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

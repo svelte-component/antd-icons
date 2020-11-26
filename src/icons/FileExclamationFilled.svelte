@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FileExclamationFilledSvg from '@ant-design/icons-svg/lib/asn/FileExclamationFilled';
+  import FileExclamationFilledSvg from '@ant-design/icons-svg/es/asn/FileExclamationFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

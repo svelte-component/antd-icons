@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ProfileOutlinedSvg from '@ant-design/icons-svg/lib/asn/ProfileOutlined';
+  import ProfileOutlinedSvg from '@ant-design/icons-svg/es/asn/ProfileOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

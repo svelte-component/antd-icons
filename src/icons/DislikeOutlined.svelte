@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DislikeOutlinedSvg from '@ant-design/icons-svg/lib/asn/DislikeOutlined';
+  import DislikeOutlinedSvg from '@ant-design/icons-svg/es/asn/DislikeOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

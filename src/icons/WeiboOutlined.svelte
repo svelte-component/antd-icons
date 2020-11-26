@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WeiboOutlinedSvg from '@ant-design/icons-svg/lib/asn/WeiboOutlined';
+  import WeiboOutlinedSvg from '@ant-design/icons-svg/es/asn/WeiboOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

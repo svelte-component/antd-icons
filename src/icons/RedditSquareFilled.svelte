@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RedditSquareFilledSvg from '@ant-design/icons-svg/lib/asn/RedditSquareFilled';
+  import RedditSquareFilledSvg from '@ant-design/icons-svg/es/asn/RedditSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

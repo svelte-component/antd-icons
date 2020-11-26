@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DownSquareFilledSvg from '@ant-design/icons-svg/lib/asn/DownSquareFilled';
+  import DownSquareFilledSvg from '@ant-design/icons-svg/es/asn/DownSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

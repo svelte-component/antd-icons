@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BulbFilledSvg from '@ant-design/icons-svg/lib/asn/BulbFilled';
+  import BulbFilledSvg from '@ant-design/icons-svg/es/asn/BulbFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

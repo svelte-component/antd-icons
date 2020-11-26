@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BackwardFilledSvg from '@ant-design/icons-svg/lib/asn/BackwardFilled';
+  import BackwardFilledSvg from '@ant-design/icons-svg/es/asn/BackwardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

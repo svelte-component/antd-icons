@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MehFilledSvg from '@ant-design/icons-svg/lib/asn/MehFilled';
+  import MehFilledSvg from '@ant-design/icons-svg/es/asn/MehFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

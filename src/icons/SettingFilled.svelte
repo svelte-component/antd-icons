@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SettingFilledSvg from '@ant-design/icons-svg/lib/asn/SettingFilled';
+  import SettingFilledSvg from '@ant-design/icons-svg/es/asn/SettingFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SyncOutlinedSvg from '@ant-design/icons-svg/lib/asn/SyncOutlined';
+  import SyncOutlinedSvg from '@ant-design/icons-svg/es/asn/SyncOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

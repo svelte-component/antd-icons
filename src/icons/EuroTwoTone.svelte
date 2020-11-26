@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import EuroTwoToneSvg from '@ant-design/icons-svg/lib/asn/EuroTwoTone';
+  import EuroTwoToneSvg from '@ant-design/icons-svg/es/asn/EuroTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

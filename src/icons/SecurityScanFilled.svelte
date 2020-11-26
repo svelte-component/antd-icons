@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SecurityScanFilledSvg from '@ant-design/icons-svg/lib/asn/SecurityScanFilled';
+  import SecurityScanFilledSvg from '@ant-design/icons-svg/es/asn/SecurityScanFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

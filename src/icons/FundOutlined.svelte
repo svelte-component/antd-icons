@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FundOutlinedSvg from '@ant-design/icons-svg/lib/asn/FundOutlined';
+  import FundOutlinedSvg from '@ant-design/icons-svg/es/asn/FundOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

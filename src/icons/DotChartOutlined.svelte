@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DotChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/DotChartOutlined';
+  import DotChartOutlinedSvg from '@ant-design/icons-svg/es/asn/DotChartOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

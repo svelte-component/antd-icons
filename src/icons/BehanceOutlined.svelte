@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BehanceOutlinedSvg from '@ant-design/icons-svg/lib/asn/BehanceOutlined';
+  import BehanceOutlinedSvg from '@ant-design/icons-svg/es/asn/BehanceOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

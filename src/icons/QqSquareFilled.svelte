@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import QqSquareFilledSvg from '@ant-design/icons-svg/lib/asn/QqSquareFilled';
+  import QqSquareFilledSvg from '@ant-design/icons-svg/es/asn/QqSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

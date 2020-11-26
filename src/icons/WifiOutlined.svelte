@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WifiOutlinedSvg from '@ant-design/icons-svg/lib/asn/WifiOutlined';
+  import WifiOutlinedSvg from '@ant-design/icons-svg/es/asn/WifiOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

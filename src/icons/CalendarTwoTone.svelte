@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CalendarTwoToneSvg from '@ant-design/icons-svg/lib/asn/CalendarTwoTone';
+  import CalendarTwoToneSvg from '@ant-design/icons-svg/es/asn/CalendarTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

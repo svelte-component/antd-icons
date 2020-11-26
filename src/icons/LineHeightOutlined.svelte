@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import LineHeightOutlinedSvg from '@ant-design/icons-svg/lib/asn/LineHeightOutlined';
+  import LineHeightOutlinedSvg from '@ant-design/icons-svg/es/asn/LineHeightOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import YoutubeFilledSvg from '@ant-design/icons-svg/lib/asn/YoutubeFilled';
+  import YoutubeFilledSvg from '@ant-design/icons-svg/es/asn/YoutubeFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

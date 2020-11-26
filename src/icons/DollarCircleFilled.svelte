@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DollarCircleFilledSvg from '@ant-design/icons-svg/lib/asn/DollarCircleFilled';
+  import DollarCircleFilledSvg from '@ant-design/icons-svg/es/asn/DollarCircleFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CalendarFilledSvg from '@ant-design/icons-svg/lib/asn/CalendarFilled';
+  import CalendarFilledSvg from '@ant-design/icons-svg/es/asn/CalendarFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

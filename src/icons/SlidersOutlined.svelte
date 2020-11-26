@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SlidersOutlinedSvg from '@ant-design/icons-svg/lib/asn/SlidersOutlined';
+  import SlidersOutlinedSvg from '@ant-design/icons-svg/es/asn/SlidersOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

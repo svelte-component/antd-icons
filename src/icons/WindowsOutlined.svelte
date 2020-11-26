@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WindowsOutlinedSvg from '@ant-design/icons-svg/lib/asn/WindowsOutlined';
+  import WindowsOutlinedSvg from '@ant-design/icons-svg/es/asn/WindowsOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

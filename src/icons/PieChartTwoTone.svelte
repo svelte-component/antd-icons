@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PieChartTwoToneSvg from '@ant-design/icons-svg/lib/asn/PieChartTwoTone';
+  import PieChartTwoToneSvg from '@ant-design/icons-svg/es/asn/PieChartTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

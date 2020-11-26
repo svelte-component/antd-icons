@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DashboardTwoToneSvg from '@ant-design/icons-svg/lib/asn/DashboardTwoTone';
+  import DashboardTwoToneSvg from '@ant-design/icons-svg/es/asn/DashboardTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

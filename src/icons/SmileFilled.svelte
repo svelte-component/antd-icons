@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SmileFilledSvg from '@ant-design/icons-svg/lib/asn/SmileFilled';
+  import SmileFilledSvg from '@ant-design/icons-svg/es/asn/SmileFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

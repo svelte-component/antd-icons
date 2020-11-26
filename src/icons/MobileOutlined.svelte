@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MobileOutlinedSvg from '@ant-design/icons-svg/lib/asn/MobileOutlined';
+  import MobileOutlinedSvg from '@ant-design/icons-svg/es/asn/MobileOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

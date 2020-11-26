@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CarryOutFilledSvg from '@ant-design/icons-svg/lib/asn/CarryOutFilled';
+  import CarryOutFilledSvg from '@ant-design/icons-svg/es/asn/CarryOutFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

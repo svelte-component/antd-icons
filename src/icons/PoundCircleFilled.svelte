@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PoundCircleFilledSvg from '@ant-design/icons-svg/lib/asn/PoundCircleFilled';
+  import PoundCircleFilledSvg from '@ant-design/icons-svg/es/asn/PoundCircleFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

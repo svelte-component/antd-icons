@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PartitionOutlinedSvg from '@ant-design/icons-svg/lib/asn/PartitionOutlined';
+  import PartitionOutlinedSvg from '@ant-design/icons-svg/es/asn/PartitionOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

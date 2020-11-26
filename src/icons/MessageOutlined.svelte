@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MessageOutlinedSvg from '@ant-design/icons-svg/lib/asn/MessageOutlined';
+  import MessageOutlinedSvg from '@ant-design/icons-svg/es/asn/MessageOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

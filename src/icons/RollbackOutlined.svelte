@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RollbackOutlinedSvg from '@ant-design/icons-svg/lib/asn/RollbackOutlined';
+  import RollbackOutlinedSvg from '@ant-design/icons-svg/es/asn/RollbackOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

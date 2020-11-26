@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MacCommandFilledSvg from '@ant-design/icons-svg/lib/asn/MacCommandFilled';
+  import MacCommandFilledSvg from '@ant-design/icons-svg/es/asn/MacCommandFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

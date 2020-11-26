@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import YahooOutlinedSvg from '@ant-design/icons-svg/lib/asn/YahooOutlined';
+  import YahooOutlinedSvg from '@ant-design/icons-svg/es/asn/YahooOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

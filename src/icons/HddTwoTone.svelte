@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import HddTwoToneSvg from '@ant-design/icons-svg/lib/asn/HddTwoTone';
+  import HddTwoToneSvg from '@ant-design/icons-svg/es/asn/HddTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

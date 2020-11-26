@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import GatewayOutlinedSvg from '@ant-design/icons-svg/lib/asn/GatewayOutlined';
+  import GatewayOutlinedSvg from '@ant-design/icons-svg/es/asn/GatewayOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

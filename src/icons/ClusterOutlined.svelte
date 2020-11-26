@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ClusterOutlinedSvg from '@ant-design/icons-svg/lib/asn/ClusterOutlined';
+  import ClusterOutlinedSvg from '@ant-design/icons-svg/es/asn/ClusterOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

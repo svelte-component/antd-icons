@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BorderOutlinedSvg from '@ant-design/icons-svg/lib/asn/BorderOutlined';
+  import BorderOutlinedSvg from '@ant-design/icons-svg/es/asn/BorderOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import UngroupOutlinedSvg from '@ant-design/icons-svg/lib/asn/UngroupOutlined';
+  import UngroupOutlinedSvg from '@ant-design/icons-svg/es/asn/UngroupOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TabletFilledSvg from '@ant-design/icons-svg/lib/asn/TabletFilled';
+  import TabletFilledSvg from '@ant-design/icons-svg/es/asn/TabletFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

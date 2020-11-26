@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import NumberOutlinedSvg from '@ant-design/icons-svg/lib/asn/NumberOutlined';
+  import NumberOutlinedSvg from '@ant-design/icons-svg/es/asn/NumberOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

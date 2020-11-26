@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import LockFilledSvg from '@ant-design/icons-svg/lib/asn/LockFilled';
+  import LockFilledSvg from '@ant-design/icons-svg/es/asn/LockFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

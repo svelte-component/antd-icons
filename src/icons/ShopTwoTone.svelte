@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ShopTwoToneSvg from '@ant-design/icons-svg/lib/asn/ShopTwoTone';
+  import ShopTwoToneSvg from '@ant-design/icons-svg/es/asn/ShopTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

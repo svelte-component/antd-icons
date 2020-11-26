@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RedoOutlinedSvg from '@ant-design/icons-svg/lib/asn/RedoOutlined';
+  import RedoOutlinedSvg from '@ant-design/icons-svg/es/asn/RedoOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ScissorOutlinedSvg from '@ant-design/icons-svg/lib/asn/ScissorOutlined';
+  import ScissorOutlinedSvg from '@ant-design/icons-svg/es/asn/ScissorOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

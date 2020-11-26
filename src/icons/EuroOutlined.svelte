@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import EuroOutlinedSvg from '@ant-design/icons-svg/lib/asn/EuroOutlined';
+  import EuroOutlinedSvg from '@ant-design/icons-svg/es/asn/EuroOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

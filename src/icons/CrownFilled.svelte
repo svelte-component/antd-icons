@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CrownFilledSvg from '@ant-design/icons-svg/lib/asn/CrownFilled';
+  import CrownFilledSvg from '@ant-design/icons-svg/es/asn/CrownFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

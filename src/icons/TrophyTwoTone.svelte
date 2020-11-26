@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TrophyTwoToneSvg from '@ant-design/icons-svg/lib/asn/TrophyTwoTone';
+  import TrophyTwoToneSvg from '@ant-design/icons-svg/es/asn/TrophyTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

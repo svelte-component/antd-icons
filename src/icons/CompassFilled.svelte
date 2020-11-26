@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CompassFilledSvg from '@ant-design/icons-svg/lib/asn/CompassFilled';
+  import CompassFilledSvg from '@ant-design/icons-svg/es/asn/CompassFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

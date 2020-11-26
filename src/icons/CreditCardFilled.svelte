@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CreditCardFilledSvg from '@ant-design/icons-svg/lib/asn/CreditCardFilled';
+  import CreditCardFilledSvg from '@ant-design/icons-svg/es/asn/CreditCardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

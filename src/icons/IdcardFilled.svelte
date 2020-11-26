@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import IdcardFilledSvg from '@ant-design/icons-svg/lib/asn/IdcardFilled';
+  import IdcardFilledSvg from '@ant-design/icons-svg/es/asn/IdcardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import NotificationOutlinedSvg from '@ant-design/icons-svg/lib/asn/NotificationOutlined';
+  import NotificationOutlinedSvg from '@ant-design/icons-svg/es/asn/NotificationOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

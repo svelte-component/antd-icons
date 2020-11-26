@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TabletTwoToneSvg from '@ant-design/icons-svg/lib/asn/TabletTwoTone';
+  import TabletTwoToneSvg from '@ant-design/icons-svg/es/asn/TabletTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

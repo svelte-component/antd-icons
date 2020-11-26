@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DiffTwoToneSvg from '@ant-design/icons-svg/lib/asn/DiffTwoTone';
+  import DiffTwoToneSvg from '@ant-design/icons-svg/es/asn/DiffTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

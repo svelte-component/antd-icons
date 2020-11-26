@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import LockTwoToneSvg from '@ant-design/icons-svg/lib/asn/LockTwoTone';
+  import LockTwoToneSvg from '@ant-design/icons-svg/es/asn/LockTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

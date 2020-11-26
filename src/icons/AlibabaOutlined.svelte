@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import AlibabaOutlinedSvg from '@ant-design/icons-svg/lib/asn/AlibabaOutlined';
+  import AlibabaOutlinedSvg from '@ant-design/icons-svg/es/asn/AlibabaOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

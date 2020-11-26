@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BranchesOutlinedSvg from '@ant-design/icons-svg/lib/asn/BranchesOutlined';
+  import BranchesOutlinedSvg from '@ant-design/icons-svg/es/asn/BranchesOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

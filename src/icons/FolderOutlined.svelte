@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FolderOutlinedSvg from '@ant-design/icons-svg/lib/asn/FolderOutlined';
+  import FolderOutlinedSvg from '@ant-design/icons-svg/es/asn/FolderOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SkypeOutlinedSvg from '@ant-design/icons-svg/lib/asn/SkypeOutlined';
+  import SkypeOutlinedSvg from '@ant-design/icons-svg/es/asn/SkypeOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

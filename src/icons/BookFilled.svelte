@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BookFilledSvg from '@ant-design/icons-svg/lib/asn/BookFilled';
+  import BookFilledSvg from '@ant-design/icons-svg/es/asn/BookFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

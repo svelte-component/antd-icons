@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CompressOutlinedSvg from '@ant-design/icons-svg/lib/asn/CompressOutlined';
+  import CompressOutlinedSvg from '@ant-design/icons-svg/es/asn/CompressOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

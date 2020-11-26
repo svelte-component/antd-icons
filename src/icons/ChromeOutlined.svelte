@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ChromeOutlinedSvg from '@ant-design/icons-svg/lib/asn/ChromeOutlined';
+  import ChromeOutlinedSvg from '@ant-design/icons-svg/es/asn/ChromeOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

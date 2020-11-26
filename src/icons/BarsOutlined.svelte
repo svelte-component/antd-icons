@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BarsOutlinedSvg from '@ant-design/icons-svg/lib/asn/BarsOutlined';
+  import BarsOutlinedSvg from '@ant-design/icons-svg/es/asn/BarsOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SoundOutlinedSvg from '@ant-design/icons-svg/lib/asn/SoundOutlined';
+  import SoundOutlinedSvg from '@ant-design/icons-svg/es/asn/SoundOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

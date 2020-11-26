@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CloudTwoToneSvg from '@ant-design/icons-svg/lib/asn/CloudTwoTone';
+  import CloudTwoToneSvg from '@ant-design/icons-svg/es/asn/CloudTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

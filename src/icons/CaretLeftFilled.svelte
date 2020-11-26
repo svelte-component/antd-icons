@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CaretLeftFilledSvg from '@ant-design/icons-svg/lib/asn/CaretLeftFilled';
+  import CaretLeftFilledSvg from '@ant-design/icons-svg/es/asn/CaretLeftFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

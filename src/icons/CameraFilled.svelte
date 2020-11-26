@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CameraFilledSvg from '@ant-design/icons-svg/lib/asn/CameraFilled';
+  import CameraFilledSvg from '@ant-design/icons-svg/es/asn/CameraFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

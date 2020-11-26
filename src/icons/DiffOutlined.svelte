@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DiffOutlinedSvg from '@ant-design/icons-svg/lib/asn/DiffOutlined';
+  import DiffOutlinedSvg from '@ant-design/icons-svg/es/asn/DiffOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

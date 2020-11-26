@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CrownTwoToneSvg from '@ant-design/icons-svg/lib/asn/CrownTwoTone';
+  import CrownTwoToneSvg from '@ant-design/icons-svg/es/asn/CrownTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

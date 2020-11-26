@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DesktopOutlinedSvg from '@ant-design/icons-svg/lib/asn/DesktopOutlined';
+  import DesktopOutlinedSvg from '@ant-design/icons-svg/es/asn/DesktopOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

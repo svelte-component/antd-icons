@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BugFilledSvg from '@ant-design/icons-svg/lib/asn/BugFilled';
+  import BugFilledSvg from '@ant-design/icons-svg/es/asn/BugFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

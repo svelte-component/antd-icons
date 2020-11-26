@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import LockOutlinedSvg from '@ant-design/icons-svg/lib/asn/LockOutlined';
+  import LockOutlinedSvg from '@ant-design/icons-svg/es/asn/LockOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

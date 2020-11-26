@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import IeOutlinedSvg from '@ant-design/icons-svg/lib/asn/IeOutlined';
+  import IeOutlinedSvg from '@ant-design/icons-svg/es/asn/IeOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

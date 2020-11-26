@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import KeyOutlinedSvg from '@ant-design/icons-svg/lib/asn/KeyOutlined';
+  import KeyOutlinedSvg from '@ant-design/icons-svg/es/asn/KeyOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

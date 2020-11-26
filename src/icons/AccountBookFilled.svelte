@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import AccountBookFilledSvg from '@ant-design/icons-svg/lib/asn/AccountBookFilled';
+  import AccountBookFilledSvg from '@ant-design/icons-svg/es/asn/AccountBookFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

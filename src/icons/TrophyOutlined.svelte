@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TrophyOutlinedSvg from '@ant-design/icons-svg/lib/asn/TrophyOutlined';
+  import TrophyOutlinedSvg from '@ant-design/icons-svg/es/asn/TrophyOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

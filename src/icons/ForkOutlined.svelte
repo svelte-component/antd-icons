@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ForkOutlinedSvg from '@ant-design/icons-svg/lib/asn/ForkOutlined';
+  import ForkOutlinedSvg from '@ant-design/icons-svg/es/asn/ForkOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

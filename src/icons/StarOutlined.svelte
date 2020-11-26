@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import StarOutlinedSvg from '@ant-design/icons-svg/lib/asn/StarOutlined';
+  import StarOutlinedSvg from '@ant-design/icons-svg/es/asn/StarOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FileTextFilledSvg from '@ant-design/icons-svg/lib/asn/FileTextFilled';
+  import FileTextFilledSvg from '@ant-design/icons-svg/es/asn/FileTextFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

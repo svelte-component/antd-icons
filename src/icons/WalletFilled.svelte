@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WalletFilledSvg from '@ant-design/icons-svg/lib/asn/WalletFilled';
+  import WalletFilledSvg from '@ant-design/icons-svg/es/asn/WalletFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ThunderboltFilledSvg from '@ant-design/icons-svg/lib/asn/ThunderboltFilled';
+  import ThunderboltFilledSvg from '@ant-design/icons-svg/es/asn/ThunderboltFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

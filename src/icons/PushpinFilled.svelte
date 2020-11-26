@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PushpinFilledSvg from '@ant-design/icons-svg/lib/asn/PushpinFilled';
+  import PushpinFilledSvg from '@ant-design/icons-svg/es/asn/PushpinFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

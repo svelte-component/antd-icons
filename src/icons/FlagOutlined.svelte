@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FlagOutlinedSvg from '@ant-design/icons-svg/lib/asn/FlagOutlined';
+  import FlagOutlinedSvg from '@ant-design/icons-svg/es/asn/FlagOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

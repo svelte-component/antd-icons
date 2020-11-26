@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ForwardOutlinedSvg from '@ant-design/icons-svg/lib/asn/ForwardOutlined';
+  import ForwardOutlinedSvg from '@ant-design/icons-svg/es/asn/ForwardOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

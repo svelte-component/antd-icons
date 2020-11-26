@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ToolOutlinedSvg from '@ant-design/icons-svg/lib/asn/ToolOutlined';
+  import ToolOutlinedSvg from '@ant-design/icons-svg/es/asn/ToolOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

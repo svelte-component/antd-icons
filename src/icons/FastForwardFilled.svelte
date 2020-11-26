@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FastForwardFilledSvg from '@ant-design/icons-svg/lib/asn/FastForwardFilled';
+  import FastForwardFilledSvg from '@ant-design/icons-svg/es/asn/FastForwardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

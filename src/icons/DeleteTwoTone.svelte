@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DeleteTwoToneSvg from '@ant-design/icons-svg/lib/asn/DeleteTwoTone';
+  import DeleteTwoToneSvg from '@ant-design/icons-svg/es/asn/DeleteTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import Html5FilledSvg from '@ant-design/icons-svg/lib/asn/Html5Filled';
+  import Html5FilledSvg from '@ant-design/icons-svg/es/asn/Html5Filled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

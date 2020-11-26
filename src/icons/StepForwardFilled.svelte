@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import StepForwardFilledSvg from '@ant-design/icons-svg/lib/asn/StepForwardFilled';
+  import StepForwardFilledSvg from '@ant-design/icons-svg/es/asn/StepForwardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

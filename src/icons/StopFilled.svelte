@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import StopFilledSvg from '@ant-design/icons-svg/lib/asn/StopFilled';
+  import StopFilledSvg from '@ant-design/icons-svg/es/asn/StopFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

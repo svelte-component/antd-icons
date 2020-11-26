@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ReconciliationFilledSvg from '@ant-design/icons-svg/lib/asn/ReconciliationFilled';
+  import ReconciliationFilledSvg from '@ant-design/icons-svg/es/asn/ReconciliationFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

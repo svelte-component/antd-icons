@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BuildTwoToneSvg from '@ant-design/icons-svg/lib/asn/BuildTwoTone';
+  import BuildTwoToneSvg from '@ant-design/icons-svg/es/asn/BuildTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

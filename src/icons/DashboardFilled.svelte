@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DashboardFilledSvg from '@ant-design/icons-svg/lib/asn/DashboardFilled';
+  import DashboardFilledSvg from '@ant-design/icons-svg/es/asn/DashboardFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import AliwangwangFilledSvg from '@ant-design/icons-svg/lib/asn/AliwangwangFilled';
+  import AliwangwangFilledSvg from '@ant-design/icons-svg/es/asn/AliwangwangFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PrinterTwoToneSvg from '@ant-design/icons-svg/lib/asn/PrinterTwoTone';
+  import PrinterTwoToneSvg from '@ant-design/icons-svg/es/asn/PrinterTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

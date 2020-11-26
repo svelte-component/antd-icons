@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import UsbTwoToneSvg from '@ant-design/icons-svg/lib/asn/UsbTwoTone';
+  import UsbTwoToneSvg from '@ant-design/icons-svg/es/asn/UsbTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

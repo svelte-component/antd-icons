@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ExperimentFilledSvg from '@ant-design/icons-svg/lib/asn/ExperimentFilled';
+  import ExperimentFilledSvg from '@ant-design/icons-svg/es/asn/ExperimentFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import HourglassFilledSvg from '@ant-design/icons-svg/lib/asn/HourglassFilled';
+  import HourglassFilledSvg from '@ant-design/icons-svg/es/asn/HourglassFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

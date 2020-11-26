@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DatabaseFilledSvg from '@ant-design/icons-svg/lib/asn/DatabaseFilled';
+  import DatabaseFilledSvg from '@ant-design/icons-svg/es/asn/DatabaseFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

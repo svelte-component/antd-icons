@@ -45,9 +45,6 @@ var App = (function () {
     function text(data) {
         return document.createTextNode(data);
     }
-    function space() {
-        return text(' ');
-    }
     function empty() {
         return text('');
     }
@@ -409,13 +406,6 @@ var App = (function () {
             dispose();
         };
     }
-    function attr_dev(node, attribute, value) {
-        attr(node, attribute, value);
-        if (value == null)
-            dispatch_dev('SvelteDOMRemoveAttribute', { node, attribute });
-        else
-            dispatch_dev('SvelteDOMSetAttribute', { node, attribute, value });
-    }
     function validate_slots(name, slot, keys) {
         for (const slot_key of Object.keys(slot)) {
             if (!~keys.indexOf(slot_key)) {
@@ -439,35 +429,6 @@ var App = (function () {
         $capture_state() { }
         $inject_state() { }
     }
-
-    var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
-
-    function getDefaultExportFromCjs (x) {
-    	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
-    }
-
-    function createCommonjsModule(fn, basedir, module) {
-    	return module = {
-    		path: basedir,
-    		exports: {},
-    		require: function (path, base) {
-    			return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
-    		}
-    	}, fn(module, module.exports), module.exports;
-    }
-
-    function commonjsRequire () {
-    	throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
-    }
-
-    var AccountBookTwoTone_1 = createCommonjsModule(function (module, exports) {
-    // This icon file is generated automatically.
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var AccountBookTwoTone = { "icon": function render(primaryColor, secondaryColor) { return { "tag": "svg", "attrs": { "viewBox": "64 64 896 896", "focusable": "false" }, "children": [{ "tag": "path", "attrs": { "d": "M712 304c0 4.4-3.6 8-8 8h-56c-4.4 0-8-3.6-8-8v-48H384v48c0 4.4-3.6 8-8 8h-56c-4.4 0-8-3.6-8-8v-48H184v584h656V256H712v48zm-65.6 121.8l-89.3 164.1h49.1c4.4 0 8 3.6 8 8v21.3c0 4.4-3.6 8-8 8h-65.4v33.7h65.4c4.4 0 8 3.6 8 8v21.3c0 4.4-3.6 8-8 8h-65.4V752c0 4.4-3.6 8-8 8h-41.3c-4.4 0-8-3.6-8-8v-53.8h-65.1c-4.4 0-8-3.6-8-8v-21.3c0-4.4 3.6-8 8-8h65.1v-33.7h-65.1c-4.4 0-8-3.6-8-8v-21.3c0-4.4 3.6-8 8-8H467l-89.3-164c-2.1-3.9-.7-8.8 3.2-10.9 1.1-.7 2.5-1 3.8-1h46a8 8 0 017.1 4.4l73.4 145.4h2.8l73.4-145.4c1.3-2.7 4.1-4.4 7.1-4.4h45c4.5 0 8 3.6 7.9 8 0 1.3-.4 2.6-1 3.8z", "fill": secondaryColor } }, { "tag": "path", "attrs": { "d": "M639.5 414h-45c-3 0-5.8 1.7-7.1 4.4L514 563.8h-2.8l-73.4-145.4a8 8 0 00-7.1-4.4h-46c-1.3 0-2.7.3-3.8 1-3.9 2.1-5.3 7-3.2 10.9l89.3 164h-48.6c-4.4 0-8 3.6-8 8v21.3c0 4.4 3.6 8 8 8h65.1v33.7h-65.1c-4.4 0-8 3.6-8 8v21.3c0 4.4 3.6 8 8 8h65.1V752c0 4.4 3.6 8 8 8h41.3c4.4 0 8-3.6 8-8v-53.8h65.4c4.4 0 8-3.6 8-8v-21.3c0-4.4-3.6-8-8-8h-65.4v-33.7h65.4c4.4 0 8-3.6 8-8v-21.3c0-4.4-3.6-8-8-8h-49.1l89.3-164.1c.6-1.2 1-2.5 1-3.8.1-4.4-3.4-8-7.9-8z", "fill": primaryColor } }, { "tag": "path", "attrs": { "d": "M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v584z", "fill": primaryColor } }] }; }, "name": "account-book", "theme": "twotone" };
-    exports.default = AccountBookTwoTone;
-    });
-
-    var AccountBookTwoToneSvg = /*@__PURE__*/getDefaultExportFromCjs(AccountBookTwoTone_1);
 
     /**
      * Take input from [0, n] and return it as [0, 1]
@@ -1820,7 +1781,7 @@ var App = (function () {
     insertCss_1.insertCss = insertCss_2;
 
     function warning(valid, message) {
-      warn(valid, `[@ant-design/icons] ${message}`);
+      warn(valid, `[sc-antd-icons] ${message}`);
     }
     function warn(valid, message) {
       if (
@@ -1955,6 +1916,22 @@ var App = (function () {
       });
     }
 
+    var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+
+    function createCommonjsModule(fn, basedir, module) {
+    	return module = {
+    		path: basedir,
+    		exports: {},
+    		require: function (path, base) {
+    			return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
+    		}
+    	}, fn(module, module.exports), module.exports;
+    }
+
+    function commonjsRequire () {
+    	throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
+    }
+
     var classnames = createCommonjsModule(function (module) {
     /*!
       Copyright (c) 2017 Jed Watson.
@@ -2055,7 +2032,9 @@ var App = (function () {
 
     /* src/components/IconBase.svelte generated by Svelte v3.29.7 */
 
-    // (49:0) {#if icon}
+    const { console: console_1 } = globals;
+
+    // (50:0) {#if icon}
     function create_if_block(ctx) {
     	let html_tag;
     	let html_anchor;
@@ -2082,7 +2061,7 @@ var App = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(49:0) {#if icon}",
+    		source: "(50:0) {#if icon}",
     		ctx
     	});
 
@@ -2147,13 +2126,14 @@ var App = (function () {
     	let { secondaryColor = "" } = $$props;
     	let { className = "" } = $$props;
     	let { restProps = {} } = $$props;
+    	console.log("icon2: ", isIconDefinition(icon));
     	useInsertStyles();
     	warning(isIconDefinition(icon), `icon should be icon definiton, but got ${icon}`);
     	let colors = twoToneColorPalette;
     	const writable_props = ["icon", "style", "primaryColor", "secondaryColor", "className", "restProps"];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<IconBase> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<IconBase> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$$set = $$props => {
@@ -2303,6 +2283,8 @@ var App = (function () {
     }
 
     /* src/components/AntdIcon.svelte generated by Svelte v3.29.7 */
+
+    const { console: console_1$1 } = globals;
     const file = "src/components/AntdIcon.svelte";
 
     function create_fragment$1(ctx) {
@@ -2347,7 +2329,7 @@ var App = (function () {
     			span = element("span");
     			create_component(iconbase.$$.fragment);
     			set_attributes(span, span_data);
-    			add_location(span, file, 35, 0, 942);
+    			add_location(span, file, 36, 0, 973);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2422,6 +2404,7 @@ var App = (function () {
     	let { restProps = {} } = $$props;
     	let { restSvgProps = {} } = $$props;
     	let { style = undefined } = $$props;
+    	console.log("icon: ", icon);
 
     	const writable_props = [
     		"className",
@@ -2436,7 +2419,7 @@ var App = (function () {
     	];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<AntdIcon> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn(`<AntdIcon> was created with unknown prop '${key}'`);
     	});
 
     	function click_handler(event) {
@@ -2647,83 +2630,64 @@ var App = (function () {
     	}
     }
 
-    /* app/App.svelte generated by Svelte v3.29.7 */
+    // This icon file is generated automatically.
+    var AccountBookOutlined = { "icon": { "tag": "svg", "attrs": { "viewBox": "64 64 896 896", "focusable": "false" }, "children": [{ "tag": "path", "attrs": { "d": "M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v584zM639.5 414h-45c-3 0-5.8 1.7-7.1 4.4L514 563.8h-2.8l-73.4-145.4a8 8 0 00-7.1-4.4h-46c-1.3 0-2.7.3-3.8 1-3.9 2.1-5.3 7-3.2 10.9l89.3 164h-48.6c-4.4 0-8 3.6-8 8v21.3c0 4.4 3.6 8 8 8h65.1v33.7h-65.1c-4.4 0-8 3.6-8 8v21.3c0 4.4 3.6 8 8 8h65.1V752c0 4.4 3.6 8 8 8h41.3c4.4 0 8-3.6 8-8v-53.8h65.4c4.4 0 8-3.6 8-8v-21.3c0-4.4-3.6-8-8-8h-65.4v-33.7h65.4c4.4 0 8-3.6 8-8v-21.3c0-4.4-3.6-8-8-8h-49.1l89.3-164.1c.6-1.2 1-2.5 1-3.8.1-4.4-3.4-8-7.9-8z" } }] }, "name": "account-book", "theme": "outlined" };
 
-    const { console: console_1 } = globals;
-    const file$1 = "app/App.svelte";
+    /* src/icons/AccountBookOutlined.svelte generated by Svelte v3.29.7 */
 
     function create_fragment$2(ctx) {
-    	let div;
-    	let t1;
-    	let anticon;
-    	let t2;
-    	let button;
+    	let antdicon;
     	let current;
-    	let mounted;
-    	let dispose;
 
-    	anticon = new AntdIcon({
+    	antdicon = new AntdIcon({
     			props: {
-    				spin: /*spin*/ ctx[0],
-    				twoToneColor: ["red", "blue"],
-    				icon: AccountBookTwoToneSvg
+    				className: /*className*/ ctx[0],
+    				spin: /*spin*/ ctx[1],
+    				rotate: /*rotate*/ ctx[2],
+    				twoToneColor: /*twoToneColor*/ ctx[3],
+    				style: /*style*/ ctx[4],
+    				icon: AccountBookOutlined,
+    				restProps: /*restProps*/ ctx[5],
+    				restSvgProps: /*restSvgProps*/ ctx[6],
+    				tabIndex: /*tabIndex*/ ctx[7]
     			},
     			$$inline: true
     		});
 
-    	anticon.$on("click", clickHandle);
-
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "westar";
-    			t1 = space();
-    			create_component(anticon.$$.fragment);
-    			t2 = space();
-    			button = element("button");
-    			button.textContent = "change Primary";
-    			attr_dev(div, "class", "icon");
-    			add_location(div, file$1, 23, 0, 494);
-    			add_location(button, file$1, 29, 0, 635);
+    			create_component(antdicon.$$.fragment);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			insert_dev(target, t1, anchor);
-    			mount_component(anticon, target, anchor);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, button, anchor);
+    			mount_component(antdicon, target, anchor);
     			current = true;
-
-    			if (!mounted) {
-    				dispose = listen_dev(button, "click", /*changeSpin*/ ctx[1], false, false, false);
-    				mounted = true;
-    			}
     		},
     		p: function update(ctx, [dirty]) {
-    			const anticon_changes = {};
-    			if (dirty & /*spin*/ 1) anticon_changes.spin = /*spin*/ ctx[0];
-    			anticon.$set(anticon_changes);
+    			const antdicon_changes = {};
+    			if (dirty & /*className*/ 1) antdicon_changes.className = /*className*/ ctx[0];
+    			if (dirty & /*spin*/ 2) antdicon_changes.spin = /*spin*/ ctx[1];
+    			if (dirty & /*rotate*/ 4) antdicon_changes.rotate = /*rotate*/ ctx[2];
+    			if (dirty & /*twoToneColor*/ 8) antdicon_changes.twoToneColor = /*twoToneColor*/ ctx[3];
+    			if (dirty & /*style*/ 16) antdicon_changes.style = /*style*/ ctx[4];
+    			if (dirty & /*restProps*/ 32) antdicon_changes.restProps = /*restProps*/ ctx[5];
+    			if (dirty & /*restSvgProps*/ 64) antdicon_changes.restSvgProps = /*restSvgProps*/ ctx[6];
+    			if (dirty & /*tabIndex*/ 128) antdicon_changes.tabIndex = /*tabIndex*/ ctx[7];
+    			antdicon.$set(antdicon_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(anticon.$$.fragment, local);
+    			transition_in(antdicon.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(anticon.$$.fragment, local);
+    			transition_out(antdicon.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    			if (detaching) detach_dev(t1);
-    			destroy_component(anticon, detaching);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(button);
-    			mounted = false;
-    			dispose();
+    			destroy_component(antdicon, detaching);
     		}
     	};
 
@@ -2738,54 +2702,265 @@ var App = (function () {
     	return block;
     }
 
-    function clickHandle() {
-    	console.log("click!");
-    }
-
     function instance$2($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
-    	validate_slots("App", slots, []);
-    	let spin = false;
+    	validate_slots("AccountBookOutlined", slots, []);
+    	let { className = undefined } = $$props;
+    	let { spin = undefined } = $$props;
+    	let { rotate = undefined } = $$props;
+    	let { twoToneColor = undefined } = $$props;
+    	let { style = undefined } = $$props;
+    	let { restProps = undefined } = $$props;
+    	let { restSvgProps = undefined } = $$props;
+    	let { tabIndex = undefined } = $$props;
 
-    	function changeSpin() {
-    		$$invalidate(0, spin = !spin);
-    	} // console.log("spin: ", spin);
-
-    	const writable_props = [];
+    	const writable_props = [
+    		"className",
+    		"spin",
+    		"rotate",
+    		"twoToneColor",
+    		"style",
+    		"restProps",
+    		"restSvgProps",
+    		"tabIndex"
+    	];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<App> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<AccountBookOutlined> was created with unknown prop '${key}'`);
     	});
 
+    	$$self.$$set = $$props => {
+    		if ("className" in $$props) $$invalidate(0, className = $$props.className);
+    		if ("spin" in $$props) $$invalidate(1, spin = $$props.spin);
+    		if ("rotate" in $$props) $$invalidate(2, rotate = $$props.rotate);
+    		if ("twoToneColor" in $$props) $$invalidate(3, twoToneColor = $$props.twoToneColor);
+    		if ("style" in $$props) $$invalidate(4, style = $$props.style);
+    		if ("restProps" in $$props) $$invalidate(5, restProps = $$props.restProps);
+    		if ("restSvgProps" in $$props) $$invalidate(6, restSvgProps = $$props.restSvgProps);
+    		if ("tabIndex" in $$props) $$invalidate(7, tabIndex = $$props.tabIndex);
+    	};
+
     	$$self.$capture_state = () => ({
-    		AccountBookTwoToneSvg,
-    		AntIcon: AntdIcon,
-    		clickHandle,
+    		AccountBookOutlinedSvg: AccountBookOutlined,
+    		AntdIcon,
+    		className,
     		spin,
-    		changeSpin
+    		rotate,
+    		twoToneColor,
+    		style,
+    		restProps,
+    		restSvgProps,
+    		tabIndex
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ("spin" in $$props) $$invalidate(0, spin = $$props.spin);
+    		if ("className" in $$props) $$invalidate(0, className = $$props.className);
+    		if ("spin" in $$props) $$invalidate(1, spin = $$props.spin);
+    		if ("rotate" in $$props) $$invalidate(2, rotate = $$props.rotate);
+    		if ("twoToneColor" in $$props) $$invalidate(3, twoToneColor = $$props.twoToneColor);
+    		if ("style" in $$props) $$invalidate(4, style = $$props.style);
+    		if ("restProps" in $$props) $$invalidate(5, restProps = $$props.restProps);
+    		if ("restSvgProps" in $$props) $$invalidate(6, restSvgProps = $$props.restSvgProps);
+    		if ("tabIndex" in $$props) $$invalidate(7, tabIndex = $$props.tabIndex);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [spin, changeSpin];
+    	return [
+    		className,
+    		spin,
+    		rotate,
+    		twoToneColor,
+    		style,
+    		restProps,
+    		restSvgProps,
+    		tabIndex
+    	];
+    }
+
+    class AccountBookOutlined$1 extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, {
+    			className: 0,
+    			spin: 1,
+    			rotate: 2,
+    			twoToneColor: 3,
+    			style: 4,
+    			restProps: 5,
+    			restSvgProps: 6,
+    			tabIndex: 7
+    		});
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "AccountBookOutlined",
+    			options,
+    			id: create_fragment$2.name
+    		});
+    	}
+
+    	get className() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set className(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get spin() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set spin(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get rotate() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set rotate(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get twoToneColor() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set twoToneColor(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get style() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set style(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get restProps() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set restProps(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get restSvgProps() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set restSvgProps(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get tabIndex() {
+    		throw new Error("<AccountBookOutlined>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set tabIndex(value) {
+    		throw new Error("<AccountBookOutlined>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+    }
+
+    /* app/App.svelte generated by Svelte v3.29.7 */
+
+    const { console: console_1$2 } = globals;
+
+    function create_fragment$3(ctx) {
+    	let accountbookoutlined;
+    	let current;
+    	accountbookoutlined = new AccountBookOutlined$1({ props: { rotate: 180 }, $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(accountbookoutlined.$$.fragment);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(accountbookoutlined, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(accountbookoutlined.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(accountbookoutlined.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(accountbookoutlined, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$3.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function clickHandle() {
+    	console.log("click!");
+    }
+
+    function instance$3($$self, $$props, $$invalidate) {
+    	let { $$slots: slots = {}, $$scope } = $$props;
+    	validate_slots("App", slots, []);
+    	let spin = false;
+
+    	function changeSpin() {
+    		spin = !spin;
+    	} // console.log("spin: ", spin);
+
+    	const writable_props = [];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$2.warn(`<App> was created with unknown prop '${key}'`);
+    	});
+
+    	$$self.$capture_state = () => ({
+    		AccountBookOutlined: AccountBookOutlined$1,
+    		clickHandle,
+    		spin,
+    		changeSpin
+    	});
+
+    	$$self.$inject_state = $$props => {
+    		if ("spin" in $$props) spin = $$props.spin;
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [];
     }
 
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$2, safe_not_equal, {});
+    		init(this, options, instance$3, create_fragment$3, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$2.name
+    			id: create_fragment$3.name
     		});
     	}
     }

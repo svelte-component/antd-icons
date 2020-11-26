@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TabletOutlinedSvg from '@ant-design/icons-svg/lib/asn/TabletOutlined';
+  import TabletOutlinedSvg from '@ant-design/icons-svg/es/asn/TabletOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

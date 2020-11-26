@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DislikeTwoToneSvg from '@ant-design/icons-svg/lib/asn/DislikeTwoTone';
+  import DislikeTwoToneSvg from '@ant-design/icons-svg/es/asn/DislikeTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

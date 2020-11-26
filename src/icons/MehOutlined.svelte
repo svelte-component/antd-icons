@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MehOutlinedSvg from '@ant-design/icons-svg/lib/asn/MehOutlined';
+  import MehOutlinedSvg from '@ant-design/icons-svg/es/asn/MehOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

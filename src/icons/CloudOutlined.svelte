@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CloudOutlinedSvg from '@ant-design/icons-svg/lib/asn/CloudOutlined';
+  import CloudOutlinedSvg from '@ant-design/icons-svg/es/asn/CloudOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

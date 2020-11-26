@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DeleteOutlinedSvg from '@ant-design/icons-svg/lib/asn/DeleteOutlined';
+  import DeleteOutlinedSvg from '@ant-design/icons-svg/es/asn/DeleteOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

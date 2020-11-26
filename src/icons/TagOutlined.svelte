@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import TagOutlinedSvg from '@ant-design/icons-svg/lib/asn/TagOutlined';
+  import TagOutlinedSvg from '@ant-design/icons-svg/es/asn/TagOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

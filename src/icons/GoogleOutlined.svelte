@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import GoogleOutlinedSvg from '@ant-design/icons-svg/lib/asn/GoogleOutlined';
+  import GoogleOutlinedSvg from '@ant-design/icons-svg/es/asn/GoogleOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

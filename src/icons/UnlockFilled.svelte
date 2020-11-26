@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import UnlockFilledSvg from '@ant-design/icons-svg/lib/asn/UnlockFilled';
+  import UnlockFilledSvg from '@ant-design/icons-svg/es/asn/UnlockFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BugTwoToneSvg from '@ant-design/icons-svg/lib/asn/BugTwoTone';
+  import BugTwoToneSvg from '@ant-design/icons-svg/es/asn/BugTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

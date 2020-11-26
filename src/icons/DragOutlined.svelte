@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DragOutlinedSvg from '@ant-design/icons-svg/lib/asn/DragOutlined';
+  import DragOutlinedSvg from '@ant-design/icons-svg/es/asn/DragOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

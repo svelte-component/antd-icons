@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PhoneOutlinedSvg from '@ant-design/icons-svg/lib/asn/PhoneOutlined';
+  import PhoneOutlinedSvg from '@ant-design/icons-svg/es/asn/PhoneOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

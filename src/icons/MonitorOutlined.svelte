@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MonitorOutlinedSvg from '@ant-design/icons-svg/lib/asn/MonitorOutlined';
+  import MonitorOutlinedSvg from '@ant-design/icons-svg/es/asn/MonitorOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

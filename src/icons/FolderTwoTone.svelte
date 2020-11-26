@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import FolderTwoToneSvg from '@ant-design/icons-svg/lib/asn/FolderTwoTone';
+  import FolderTwoToneSvg from '@ant-design/icons-svg/es/asn/FolderTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

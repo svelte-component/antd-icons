@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import GitlabOutlinedSvg from '@ant-design/icons-svg/lib/asn/GitlabOutlined';
+  import GitlabOutlinedSvg from '@ant-design/icons-svg/es/asn/GitlabOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

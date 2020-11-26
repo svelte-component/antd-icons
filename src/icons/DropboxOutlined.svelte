@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DropboxOutlinedSvg from '@ant-design/icons-svg/lib/asn/DropboxOutlined';
+  import DropboxOutlinedSvg from '@ant-design/icons-svg/es/asn/DropboxOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

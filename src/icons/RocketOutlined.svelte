@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RocketOutlinedSvg from '@ant-design/icons-svg/lib/asn/RocketOutlined';
+  import RocketOutlinedSvg from '@ant-design/icons-svg/es/asn/RocketOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

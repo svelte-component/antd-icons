@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CheckSquareFilledSvg from '@ant-design/icons-svg/lib/asn/CheckSquareFilled';
+  import CheckSquareFilledSvg from '@ant-design/icons-svg/es/asn/CheckSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

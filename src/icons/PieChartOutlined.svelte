@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PieChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/PieChartOutlined';
+  import PieChartOutlinedSvg from '@ant-design/icons-svg/es/asn/PieChartOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

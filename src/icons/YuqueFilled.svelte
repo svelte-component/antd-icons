@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import YuqueFilledSvg from '@ant-design/icons-svg/lib/asn/YuqueFilled';
+  import YuqueFilledSvg from '@ant-design/icons-svg/es/asn/YuqueFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

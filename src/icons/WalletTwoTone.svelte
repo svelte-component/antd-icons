@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WalletTwoToneSvg from '@ant-design/icons-svg/lib/asn/WalletTwoTone';
+  import WalletTwoToneSvg from '@ant-design/icons-svg/es/asn/WalletTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

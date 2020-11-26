@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BoxPlotFilledSvg from '@ant-design/icons-svg/lib/asn/BoxPlotFilled';
+  import BoxPlotFilledSvg from '@ant-design/icons-svg/es/asn/BoxPlotFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

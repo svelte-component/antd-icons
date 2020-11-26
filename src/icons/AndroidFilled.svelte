@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import AndroidFilledSvg from '@ant-design/icons-svg/lib/asn/AndroidFilled';
+  import AndroidFilledSvg from '@ant-design/icons-svg/es/asn/AndroidFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

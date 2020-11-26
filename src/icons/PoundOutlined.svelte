@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PoundOutlinedSvg from '@ant-design/icons-svg/lib/asn/PoundOutlined';
+  import PoundOutlinedSvg from '@ant-design/icons-svg/es/asn/PoundOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

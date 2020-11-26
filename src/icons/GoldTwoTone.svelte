@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import GoldTwoToneSvg from '@ant-design/icons-svg/lib/asn/GoldTwoTone';
+  import GoldTwoToneSvg from '@ant-design/icons-svg/es/asn/GoldTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

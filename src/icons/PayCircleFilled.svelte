@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PayCircleFilledSvg from '@ant-design/icons-svg/lib/asn/PayCircleFilled';
+  import PayCircleFilledSvg from '@ant-design/icons-svg/es/asn/PayCircleFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import ChromeFilledSvg from '@ant-design/icons-svg/lib/asn/ChromeFilled';
+  import ChromeFilledSvg from '@ant-design/icons-svg/es/asn/ChromeFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

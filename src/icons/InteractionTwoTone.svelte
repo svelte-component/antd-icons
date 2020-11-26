@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import InteractionTwoToneSvg from '@ant-design/icons-svg/lib/asn/InteractionTwoTone';
+  import InteractionTwoToneSvg from '@ant-design/icons-svg/es/asn/InteractionTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

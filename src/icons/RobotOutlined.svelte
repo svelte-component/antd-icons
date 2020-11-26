@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RobotOutlinedSvg from '@ant-design/icons-svg/lib/asn/RobotOutlined';
+  import RobotOutlinedSvg from '@ant-design/icons-svg/es/asn/RobotOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

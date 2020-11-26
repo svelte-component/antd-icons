@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import WechatOutlinedSvg from '@ant-design/icons-svg/lib/asn/WechatOutlined';
+  import WechatOutlinedSvg from '@ant-design/icons-svg/es/asn/WechatOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

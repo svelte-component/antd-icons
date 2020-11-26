@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SwitcherFilledSvg from '@ant-design/icons-svg/lib/asn/SwitcherFilled';
+  import SwitcherFilledSvg from '@ant-design/icons-svg/es/asn/SwitcherFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

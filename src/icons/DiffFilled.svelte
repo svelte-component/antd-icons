@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DiffFilledSvg from '@ant-design/icons-svg/lib/asn/DiffFilled';
+  import DiffFilledSvg from '@ant-design/icons-svg/es/asn/DiffFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

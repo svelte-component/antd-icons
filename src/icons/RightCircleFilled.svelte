@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import RightCircleFilledSvg from '@ant-design/icons-svg/lib/asn/RightCircleFilled';
+  import RightCircleFilledSvg from '@ant-design/icons-svg/es/asn/RightCircleFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

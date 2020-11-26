@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DollarOutlinedSvg from '@ant-design/icons-svg/lib/asn/DollarOutlined';
+  import DollarOutlinedSvg from '@ant-design/icons-svg/es/asn/DollarOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

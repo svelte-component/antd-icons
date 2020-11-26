@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CompassTwoToneSvg from '@ant-design/icons-svg/lib/asn/CompassTwoTone';
+  import CompassTwoToneSvg from '@ant-design/icons-svg/es/asn/CompassTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

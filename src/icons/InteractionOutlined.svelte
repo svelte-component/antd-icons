@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import InteractionOutlinedSvg from '@ant-design/icons-svg/lib/asn/InteractionOutlined';
+  import InteractionOutlinedSvg from '@ant-design/icons-svg/es/asn/InteractionOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import MenuOutlinedSvg from '@ant-design/icons-svg/lib/asn/MenuOutlined';
+  import MenuOutlinedSvg from '@ant-design/icons-svg/es/asn/MenuOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

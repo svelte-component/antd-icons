@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CameraTwoToneSvg from '@ant-design/icons-svg/lib/asn/CameraTwoTone';
+  import CameraTwoToneSvg from '@ant-design/icons-svg/es/asn/CameraTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

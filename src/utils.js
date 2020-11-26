@@ -2,7 +2,7 @@ import { generate as generateColor } from "@ant-design/colors";
 
 import { insertCss } from "insert-css";
 export function warning(valid, message) {
-  warn(valid, `[@ant-design/icons] ${message}`);
+  warn(valid, `[sc-antd-icons] ${message}`);
 }
 function warn(valid, message) {
   if (

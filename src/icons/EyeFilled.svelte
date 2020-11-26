@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import EyeFilledSvg from '@ant-design/icons-svg/lib/asn/EyeFilled';
+  import EyeFilledSvg from '@ant-design/icons-svg/es/asn/EyeFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

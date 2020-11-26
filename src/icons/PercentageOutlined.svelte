@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import PercentageOutlinedSvg from '@ant-design/icons-svg/lib/asn/PercentageOutlined';
+  import PercentageOutlinedSvg from '@ant-design/icons-svg/es/asn/PercentageOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

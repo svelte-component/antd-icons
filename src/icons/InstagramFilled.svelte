@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import InstagramFilledSvg from '@ant-design/icons-svg/lib/asn/InstagramFilled';
+  import InstagramFilledSvg from '@ant-design/icons-svg/es/asn/InstagramFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

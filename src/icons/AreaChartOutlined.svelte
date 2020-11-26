@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import AreaChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/AreaChartOutlined';
+  import AreaChartOutlinedSvg from '@ant-design/icons-svg/es/asn/AreaChartOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import SlackSquareFilledSvg from '@ant-design/icons-svg/lib/asn/SlackSquareFilled';
+  import SlackSquareFilledSvg from '@ant-design/icons-svg/es/asn/SlackSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import CloseSquareFilledSvg from '@ant-design/icons-svg/lib/asn/CloseSquareFilled';
+  import CloseSquareFilledSvg from '@ant-design/icons-svg/es/asn/CloseSquareFilled';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

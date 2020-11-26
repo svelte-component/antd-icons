@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import DashOutlinedSvg from '@ant-design/icons-svg/lib/asn/DashOutlined';
+  import DashOutlinedSvg from '@ant-design/icons-svg/es/asn/DashOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

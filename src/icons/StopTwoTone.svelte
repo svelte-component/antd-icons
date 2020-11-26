@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import StopTwoToneSvg from '@ant-design/icons-svg/lib/asn/StopTwoTone';
+  import StopTwoToneSvg from '@ant-design/icons-svg/es/asn/StopTwoTone';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;

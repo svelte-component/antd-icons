@@ -2,7 +2,7 @@
 // GENERATE BY ./scripts/generate.js
 // DON NOT EDIT IT MANUALLY
 
-  import BugOutlinedSvg from '@ant-design/icons-svg/lib/asn/BugOutlined';
+  import BugOutlinedSvg from '@ant-design/icons-svg/es/asn/BugOutlined';
   import AntdIcon from "../components/AntdIcon.svelte";
   export let className = undefined;
   export let spin = undefined;
