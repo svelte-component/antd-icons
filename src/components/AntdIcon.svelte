@@ -38,7 +38,7 @@
   role="img"
   {tabIndex}
   aria-label={icon.name}
-  className={classString}
+  class={classString}
   {style}
   {...restProps}>
   <IconBase
